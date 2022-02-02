@@ -23,6 +23,7 @@ def steps(n):
     stepbefore = 2
     twostepbefore = 1
     curr = 0
+
     for i in range(3, n + 1):
         curr = stepbefore + twostepbefore
         twostepbefore = stepbefore
