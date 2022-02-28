@@ -6,8 +6,6 @@ For example, 121 is a palindrome while 123 is not."""
 
 x = int(input())
 
+
 def palindrom():
     return str(x) == str(x)[::-1]
-
-
-print(palindrom())
